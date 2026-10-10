@@ -1,14 +1,3 @@
--- NightHub v15 reconstructed output (message 13)
--- Generated from a validated Luraph v15 devirtualization.
--- Reconstruction scope: conservative helper/theme/API names; runtime behavior preserved.
--- Public API includes CreateWindow, AddTab, AddToggle, AddSlider, AddDropdown,
--- AddButton, AddButtons, AddLabel, AddParagraph, AddTextbox, AddCheckbox,
--- AddKeybind, AddColorpicker, SaveConfig, LoadConfig, and Destroy.
-
--- By DevAurora Code
--- Detected obfuscation: Luraph v15
--- Local names are inferred from use (the original names are not in the bytecode)
-
 local UserInputService = game:GetService("UserInputService")
 local RunService = game:GetService("RunService")
 local Players = game:GetService("Players")
@@ -2342,13 +2331,13 @@ Library = {
 local v2 = getGuiParent()
 
 for _, child in ipairs(v2:GetChildren()) do
-	if child.Name == "NightHub" and child:IsA("ScreenGui") then
+	if child.Name == "vx23" and child:IsA("ScreenGui") then
 		child:Destroy()
 	end
 end
 
 local ScreenGui = createInstance("ScreenGui", {
-	Name = "NightHub",
+	Name = "vx23",
 	ResetOnSpawn = false,
 	IgnoreGuiInset = true,
 	ZIndexBehavior = Enum.ZIndexBehavior.Sibling,
@@ -2767,7 +2756,7 @@ Library.CreateWindow = function(arg, arg2)
 		Name = "Title",
 		Position = UDim2.fromOffset(52, 11),
 		Size = UDim2.fromOffset(150, 17),
-		Text = string.upper(tbl10.Title or "NIGHT HUB"),
+		Text = string.upper(tbl10.Title or "vx23"),
 		TextSize = 13,
 		FontFace = fontFace(Enum.FontWeight.Bold),
 	}, Frame3)
@@ -2956,7 +2945,7 @@ Library.CreateWindow = function(arg, arg2)
 		Name = "Brand",
 		Position = UDim2.fromOffset(41, 14),
 		Size = UDim2.new(1, -48, 0, 14),
-		Text = string.upper(tbl10.Title or "NIGHT HUB"),
+		Text = string.upper(tbl10.Title or "vx23"),
 		TextSize = 11,
 		FontFace = fontFace(Enum.FontWeight.Bold),
 	}, Frame8)
