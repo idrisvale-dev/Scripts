@@ -1592,8 +1592,7 @@ function UE.signal.scan()
                 if ok and sig then
                     local conns = UE.exec.getconnections(sig)
                     for _, c in ipairs(conns) do
-                        UE.signal._record_connection(sig, c.Function or c["function"] or c, inst sname
-                    end
+                        UE.signal._record_connection(sig, c.Function or c["function"] or c, inst, sname)                    end
                 end
             end
             scanned = scanned + 1
