@@ -4305,7 +4305,7 @@ local _scriptUsers = getScriptUsers()
 SecReq:AddParagraph({
     Title   = "Script Users Only",
     Content = "Only players running CentuKaitunLevi\nwill appear in this list."
-
+})
 local ReqPlayerDd = SecReq:AddDropdown({
     Text     = "Select Player",
     Options  = #_scriptUsers > 0 and _scriptUsers or {"(none detected)"},
