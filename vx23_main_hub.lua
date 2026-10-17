@@ -1,6 +1,6 @@
 -- vx23 Main Hub
--- by IDRIS (vx23)
--- https://discord.gg/pU9ckzwsut
+-- by @reverse.luau
+-- https://discord.gg/6ZbGF2acvJ
 
 function BuildSchema()
 	local m, E = {}, 1
